@@ -1,20 +1,21 @@
 import React from 'react'
-import { ScrollView, StyleSheet, Text, View } from 'react-native'
+import { ScrollView, StyleSheet, Text, View ,SafeAreaView} from 'react-native'
 import { scale } from 'react-native-size-matters'
-
-export default function Container({children,isScrollable}) {
+import Header from '../Header'
+export default function Container({showHeader, children,isScrollable,innerViewStyle}) {
     return (
-        <View style={styles.container}>
+        <SafeAreaView style={styles.container}>
+            {showHeader&&<Header />}
             {
                 isScrollable? <ScrollView>
-                    <View style={styles.innerView}>
+                    <View style={[styles.innerView,innerViewStyle]}>
                         {children}
                     </View>
                 </ScrollView>
                 :
-                <View style={styles.innerView}>{children}</View>
+                <View style={[styles.innerView,innerViewStyle]}>{children}</View>
             }
-        </View>
+        </SafeAreaView>
     )
 }
 const styles = StyleSheet.create({

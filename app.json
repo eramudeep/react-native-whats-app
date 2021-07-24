@@ -1,5 +1,6 @@
 {
-  "name": "react_native_redux_starter",
-  "displayName": "react_native_redux_starter",
+  "name": "whatsapp",
+  "displayName": "whatsapp",
+  "displayNameToShow": "WhatsApp",
   "navigationTypeTabs": true
 }

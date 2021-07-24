@@ -16,6 +16,8 @@ import {AlertHelper} from './app/utils/AlertHelper';
 import {PersistGate} from 'redux-persist/integration/react';
 import TabNavigationStack from './app/routing/TabNavigationStack';
 import {navigationTypeTabs} from './app.json';
+import Feather from 'react-native-vector-icons/dist/Feather'; 
+Feather.loadFont()
 const App: () => React$Node = () => {
   const {persistor, store} = storePre;
 
