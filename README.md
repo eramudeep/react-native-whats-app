@@ -1,6 +1,8 @@
 # react-native-redux-starter
 A starter boilerplate for a mobile app using React Native and Redux.
--[UI](https://dribbble.com/shots/15990476-Whatsapp-Redesign-Concept/attachments/7828563?mode=media)
+
+-[UI](https://dribbble.com/shots/15990476-Whatsapp-Redesign-Concept/attachments/7828563?mode=media) By [Mauricio Lopez](https://dribbble.com/m4st3rmiau)
+
 ## Requirements
 - [Node](https://nodejs.org) `6.x` or newer
 - [React Native](http://facebook.github.io/react-native/docs/getting-started.html) for development
